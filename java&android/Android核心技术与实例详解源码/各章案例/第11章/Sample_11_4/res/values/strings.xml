@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Sample_11_4!</string>
+    <string name="app_name">Sample_11_4</string>
+    <string name="sNumber">电话号码</string>
+    <string name="sBody">短信内容</string>
+    <string name="tempNumber">5556</string>
+    <string name="tempBody">Hello Android</string>    
+    <string name="send">发送短信</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Sample_12_3!</string>
+    <string name="app_name">Sample_12_3</string>
+    <string name="vibrateOn">振动已启动</string>
+    <string name="vibrateOff">振动已关闭</string>
+    <string name="vibrate">启动振动</string>
+    <string name="cancel">关闭振动</string>
+</resources>

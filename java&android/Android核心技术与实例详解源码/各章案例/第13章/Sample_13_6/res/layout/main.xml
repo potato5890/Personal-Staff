@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?><!-- XML的版本以及编码方式 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    ><!--添加一个垂直的线性布局 -->
+   	<SurfaceView  
+		android:id="@+id/mySurfaceView"
+		android:gravity="center_horizontal"
+    	android:layout_width="wrap_content" 
+    	android:layout_height="200px" 
+    /><!--添加一个SurfaceView用于浏览 -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    ><!--添加一个线性布局 -->
+        <Button
+			android:id="@+id/button1"
+			android:textSize="18px"
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+    		android:text="@string/button1"
+    	/><!--添加一个按钮 -->    
+        <Button
+			android:id="@+id/button2"
+			android:textSize="18px"
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+    		android:text="@string/button2"
+    	/><!--添加一个按钮 -->
+        <Button
+			android:id="@+id/button3"
+			android:textSize="18px"
+    		android:layout_width="wrap_content" 
+    		android:layout_height="wrap_content" 
+    		android:text="@string/button3"
+    	/><!--添加一个按钮 -->    	
+    </LinearLayout>   
+    <ImageView
+    	android:id="@+id/myImageView"
+     	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content"/>
+</LinearLayout>

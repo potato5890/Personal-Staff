@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Sample_12_4!</string>
+    <string name="app_name">Sample_12_4</string>
+    <string name="btnPlay">播放音乐</string>				<!-- 声明一个名为btnPlay的字符串 -->
+    <string name="mute">静音</string>					<!-- 声明一个名为mute的字符串 -->
+    <string name="normal">正常</string>					<!-- 声明一个名为normal的字符串 -->
+    <string name="btnUpper">增大音量</string>			<!-- 声明一个名为btnUpper的字符串 -->
+    <string name="btnLower">减小音量</string>			<!-- 声明一个名为btnLower的字符串 -->
+</resources>

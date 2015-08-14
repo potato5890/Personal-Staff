@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Sample_12_6!</string>
+    <string name="app_name">Sample_12_6</string>
+    <string name="on">停止获取电量信息</string>	<!-- 声明名为on的字符串资源 -->
+    <string name="off">获取电量信息</string>		<!-- 声明名为off的字符串资源 -->
+</resources>

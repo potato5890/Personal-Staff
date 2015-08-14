@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 声明版本号和编码格式 -->
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"><!-- 垂直的线性布局 -->
+    <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"><!-- 水平的线性布局 -->
+	    <ImageView
+	    	android:layout_width="22px"
+	    	android:layout_height="fill_parent"
+	    	android:src="@drawable/logo"
+	    	style="@style/logoText"/><!-- 添加一个ImageView显示Logo -->
+		<TextView  
+			android:id="@+id/favouriteTitle"
+		    android:layout_width="fill_parent" 
+		    style="@style/logoText"
+		    android:layout_height="wrap_content" 
+		    android:text="@string/indexTitle"/><!-- 标题 -->
+	</LinearLayout>    
+	<LinearLayout 
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/background"><!-- 垂直的线性布局 -->	    
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="horizontal"
+		    android:gravity="left"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"><!-- 添加一个水平的线性布局 -->
+		    <TextView 
+		    	android:layout_width="120px"
+		    	android:layout_height="wrap_content"
+		    	android:textSize="20sp"
+			    android:textColor="@color/word"
+		    	android:text="@string/msName"/>
+		    <TextView 
+		    	android:id="@+id/msName"
+		    	android:textColor="@color/textword"
+		    	android:layout_width="200px"
+		    	android:layout_height="wrap_content"
+		    	android:textSize="20sp"/>	    	
+		</LinearLayout>   	
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="horizontal"
+		    android:gravity="left"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"><!-- 添加一个水平的线性布局 -->
+		    <TextView 
+		    	android:layout_width="120px"
+		    	android:layout_height="wrap_content"
+		    	android:textSize="20sp"
+			    android:textColor="@color/word"
+		    	android:text="@string/msTime"/>
+		    <TextView 
+		    	android:id="@+id/msTime"
+		    	android:textColor="@color/textword"
+		    	android:layout_width="200px"
+		    	android:layout_height="wrap_content"
+		    	android:textSize="20sp"/>
+		</LinearLayout> 
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="horizontal"
+		    android:gravity="left"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"><!-- 添加一个水平的线性布局 -->
+		    <TextView 
+		    	android:layout_width="120px"
+		    	android:layout_height="wrap_content"
+		    	android:textSize="20sp"
+			    android:textColor="@color/word"
+		    	android:text="@string/msDis"/>
+		</LinearLayout>	
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="horizontal"
+		    android:gravity="left"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"><!-- 添加一个水平的线性布局 -->
+		    <EditText 
+		    	android:id="@+id/msDis"
+		    	android:textColor="@color/textword"
+		    	android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"
+		    	android:lines="3"
+		    	android:enabled="false"
+		    	android:scrollbars="vertical"
+		    	android:textSize="18sp"/>
+		</LinearLayout>		
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="horizontal"
+		    android:gravity="left"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"><!-- 添加一个水平的线性布局 -->
+		    <TextView 
+		    	android:layout_width="120px"
+		    	android:layout_height="wrap_content"
+		    	android:textSize="20sp"
+			    android:textColor="@color/word"
+		    	android:text="@string/msLocation"/>
+		</LinearLayout>			
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="horizontal"
+		    android:gravity="left"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"><!-- 添加一个水平的线性布局 -->
+	    	<com.google.android.maps.MapView
+	   			android:id="@+id/myMapView"
+	    		android:layout_width="fill_parent"
+	    		android:layout_height="230px"
+	    		android:clickable="true"
+	    		android:apiKey="0FQlL5Jqg5aNxLVwjy5-t8zvbGU88UMyclkoRYQ"
+	    	/><!-- 添加一个MapView用于显示地图 -->
+		</LinearLayout>	
+	    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:orientation="horizontal"
+		    android:gravity="center"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"><!-- 添加一个水平的线性布局 -->
+		    <ImageButton
+		    	android:id="@+id/favouriteButton" 
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:src="@drawable/favourite_button"/><!-- 添加一个删除按钮 -->
+		    <ImageButton
+		    	android:id="@+id/backButton"
+		    	android:layout_width="wrap_content"
+		    	android:layout_height="wrap_content"
+		    	android:src="@drawable/back_button"/><!-- 添加一个返回按钮 -->		    	
+		</LinearLayout>
+	</LinearLayout>			
+</LinearLayout>

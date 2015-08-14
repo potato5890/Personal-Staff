@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >								<!-- 声明一个线性布局 -->
+	<EditText
+		android:id="@+id/et"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:cursorVisible="false"
+		android:editable="false"
+		/>							<!-- 声明一个EditText控件 -->
+</LinearLayout>

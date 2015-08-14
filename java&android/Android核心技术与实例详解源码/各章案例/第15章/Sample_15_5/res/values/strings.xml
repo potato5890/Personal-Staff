@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Sample_15_5!</string>
+    <string name="app_name">Sample_15_5</string>
+    <string name="title">口袋词典</string>
+    <string name="help">帮助：输入需要查询的英文单词后点击“翻译”按钮</string>
+</resources>

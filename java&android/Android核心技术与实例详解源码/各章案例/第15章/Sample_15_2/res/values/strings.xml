@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Sample_15_2!</string>
+    <string name="app_name">Sample_15_2</string>
+    <string name="txtLong">经度：</string>				<!-- 声明名为txtLong的字符串资源 -->
+    <string name="txtLat">纬度：</string>				<!-- 声明名为txtLat的字符串资源 -->
+    <string name="btnGo">查询</string>					<!-- 声明名为btnGo的字符串资源 -->
+    <string name="etLong">116.3975</string>				<!-- 声明名为etLong的字符串资源 -->
+    <string name="etLat">39.9083</string>				<!-- 声明名为etLat的字符串资源 -->
+    <string name="satellite">卫星视图</string>			<!-- 声明名为satellite的字符串资源 -->
+    <string name="normal">普通视图</string>				<!-- 声明名为normal的字符串资源 -->
+</resources>

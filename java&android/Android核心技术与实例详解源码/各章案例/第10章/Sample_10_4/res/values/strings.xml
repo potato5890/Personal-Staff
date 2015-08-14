@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Sample_10_4!</string>
+    <string name="app_name">Sample_10_4</string>
+    <string name="et">请输入网址</string>
+    <string name="btn">GO</string>
+    <string name="forward">前进</string>
+    <string name="back">后退</string>
+</resources>

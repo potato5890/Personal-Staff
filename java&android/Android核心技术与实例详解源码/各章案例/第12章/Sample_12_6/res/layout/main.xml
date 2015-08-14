@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >								<!-- 声明一个线性布局 -->
+    <ToggleButton
+    	android:id="@+id/tb"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:textOn="@string/on"
+    	android:textOff="@string/off"
+    	/>						<!-- 声明一个ToggleButton控件 -->
+	<TextView  
+		android:id="@+id/tv"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    />					<!-- 声明一个TextView控件 -->
+</LinearLayout>

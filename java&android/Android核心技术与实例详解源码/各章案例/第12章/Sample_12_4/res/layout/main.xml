@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >									<!-- 声明一个线性布局 -->
+	<Button
+		android:id="@+id/btnPlay"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/btnPlay"
+		/>								<!-- 声明一个Button控件 -->
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		>								<!-- 声明一个线性布局 -->
+		<ToggleButton
+			android:id="@+id/tbMute"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textOn="@string/mute"
+			android:textOff="@string/normal"
+			android:layout_gravity="center_vertical"
+			/>									<!-- 声明一个ToggleButton控件 -->
+		<Button
+			android:id="@+id/btnUpper"
+			android:text="@string/btnUpper"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>						<!-- 声明一个Button控件 -->
+		<Button	android:id="@+id/btnLower"
+			android:text="@string/btnLower"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>								<!-- 声明一个Button控件 -->
+		</LinearLayout>
+</LinearLayout>

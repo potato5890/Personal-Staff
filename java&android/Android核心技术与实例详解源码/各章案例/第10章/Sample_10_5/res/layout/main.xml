@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >									<!-- 声明一个线性布局 -->
+	<EditText  
+		android:id="@+id/et"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:selectAllOnFocus="true"
+	    android:text="@string/et"
+	    />								<!-- 声明一个EditText对象 -->
+	<Button  
+		android:id="@+id/btn"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/btn"
+	    />								<!-- 声明一个Button对象 -->
+	<WebView  
+		android:id="@+id/wv"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent" 
+	    />	    	        			<!-- 声明一个WebView对象 -->
+</LinearLayout>

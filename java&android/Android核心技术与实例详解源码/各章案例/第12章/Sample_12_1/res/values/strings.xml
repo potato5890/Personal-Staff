@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Sample_12_1!</string>
+    <string name="app_name">Sample_12_1</string>
+    <string name="btn">点击更改屏幕朝向</string>
+    <string name="et">显示当前屏幕朝向</string>
+</resources>

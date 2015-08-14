@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >											<!-- 声明一个线性布局 -->
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		>										<!-- 声明一个线性布局 -->
+		<ToggleButton
+			android:id="@+id/tb1"	
+			android:textOn="@string/cancel"
+			android:textOff="@string/vibrate"
+			android:checked="false"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>											<!-- 声明一个ToggleButton控件 -->
+		<TextView
+			android:id="@+id/tv1"
+			android:text="@string/vibrateOff"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>											<!-- 声明一个TextView -->
+		</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		>												<!-- 声明一个线性布局 -->
+		<ToggleButton
+			android:id="@+id/tb2"	
+			android:textOn="@string/cancel"
+			android:textOff="@string/vibrate"
+			android:checked="false"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>										<!-- 声明一个ToggleButton -->
+		<TextView
+			android:id="@+id/tv2"
+			android:text="@string/vibrateOff"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>											<!-- 声明一个TextView -->
+		</LinearLayout>
+</LinearLayout>

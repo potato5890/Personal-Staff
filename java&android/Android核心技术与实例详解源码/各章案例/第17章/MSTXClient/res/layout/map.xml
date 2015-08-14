@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 声明版本号和编码格式 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"  android:background="@drawable/background">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	    <ImageView
+	    	android:layout_width="22px" android:layout_height="fill_parent"
+	    	android:src="@drawable/logo" style="@style/logoText"/>
+		<TextView  
+		    android:layout_width="fill_parent"   style="@style/logoText"
+		    android:layout_height="wrap_content" 
+		    android:text="@string/indexTitle"/>
+	</LinearLayout>
+   	<com.google.android.maps.MapView
+  		android:id="@+id/myMapView" android:layout_width="fill_parent"
+   		android:layout_height="420px" android:clickable="true"
+   		android:apiKey="0FQlL5Jqg5aNxLVwjy5-t8zvbGU88UMyclkoRYQ"/>
+     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="horizontal" android:gravity="center"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	    <ImageButton
+	    	android:id="@+id/MyImageButton" android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content" android:src="@drawable/ok_button"/>
+	</LinearLayout>  	
+</LinearLayout>

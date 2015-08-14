@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><!-- XML的版本以及编码方式 -->
+<resources>
+    <string name="hello">Hello World, Sample_13_2!</string><!--定义hello字符串-->
+    <string name="app_name">Sample_13_2</string><!--定义app_name字符串-->
+    <string name="myButton1">添加快捷方式</string><!--定义myButton1字符串-->
+    <string name="myButton2">退出</string><!--定义myButton2字符串-->
+    <string name="myTitle">快捷方式</string><!--定义myTitle字符串-->
+</resources>

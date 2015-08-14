@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >										<!-- 声明一个线性布局    -->
+    <Button
+    	android:id="@+id/clearWall"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/clearWall"
+    	/>									<!-- 声明一个Button    -->
+	<ImageView
+		android:id="@+id/currWall"
+		android:layout_width="100px"
+		android:layout_height="150px"
+		android:layout_gravity="center_horizontal"
+		/>									<!-- 声明一个ImageView    -->
+	<Button
+		android:id="@+id/getWall"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/getWall"
+		/>									<!-- 声明一个Button    -->
+	<Gallery
+		android:id="@+id/gallery"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		/>									<!-- 声明一个Gallery    -->
+	<Button
+		android:id="@+id/setWall"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/setWall"
+		/>									<!-- 声明一个Button    -->
+</LinearLayout>

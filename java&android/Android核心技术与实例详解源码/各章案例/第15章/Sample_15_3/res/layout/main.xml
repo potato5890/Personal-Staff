@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	    <EditText
+	    	android:id="@+id/myEditText1"
+			android:layout_width="130px" 
+			android:layout_height="wrap_content"   
+			android:text="@string/myEditText1"/>
+		<TextView  
+			android:gravity="center_horizontal"
+		    android:layout_width="55px" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/to"/>
+	    <EditText
+	    	android:id="@+id/myEditText2"
+			android:layout_width="130px" 
+			android:layout_height="wrap_content"   	
+			android:text="@string/myEditText2"/>
+	</LinearLayout>	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="horizontal"
+	    android:gravity="center_horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	    <Button
+	      	android:id="@+id/fromButton"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"   	  	
+			android:text="@string/fromButton"/>	
+	    <Button
+	      	android:id="@+id/toButton"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"   	  	
+			android:text="@string/toButton"/>	
+	    <Button
+	      	android:id="@+id/myButton"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"   	  	
+			android:text="@string/myButton"/>	  	    	    	    
+	</LinearLayout>
+    <com.google.android.maps.MapView
+    	android:id="@+id/myMapView"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:clickable="true"
+    	android:apiKey="0FQlL5Jqg5aNxLVwjy5-t8zvbGU88UMyclkoRYQ"
+    /><!--在水平的线性布局中添加MapView用来显示地图 -->
+</LinearLayout>

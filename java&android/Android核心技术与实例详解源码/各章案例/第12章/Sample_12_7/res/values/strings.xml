@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Sample_12_7!</string>
+    <string name="app_name">Sample_12_7</string>
+	<string name="btn">设置闹钟</string>
+	<string name="alarmTitle">闹钟</string>
+	<string name="alarmMsg">时间到了！</string>
+	<string name="alarmButton">知道了</string>
+	
+</resources>

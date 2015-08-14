@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Sample_10_6!</string>
+    <string name="app_name">Sample_10_6</string>
+    <string name="tvName">姓名：</string>
+    <string name="tvPhone">固定电话：</string>
+    <string name="tvMobile">移动电话：</string>
+    <string name="tvEmail">电子邮件：</string>
+    <string name="tvPost">邮政编码：</string>
+    <string name="tvAddr">通信地址：</string>
+    <string name="tvComp">公司名称：</string>
+    <string name="menu_add">添加</string>
+    <string name="menu_modify">修改</string>
+    <string name="menu_delete">删除</string>
+    <string name="menu_save">保存</string>
+    <string name="dialog_message">确认删除此人吗？</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="title">联系人列表</string>
+</resources>

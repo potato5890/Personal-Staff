@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Sample_15_3!</string>
+    <string name="app_name">Sample_15_3</string>
+    <string name="myButton">查询路径</string>
+    <string name="to">到</string>
+    <string name="myEditText1">北京天安门</string>
+    <string name="myEditText2">前门</string>
+    <string name="fromButton">显示起点</string>
+    <string name="toButton">显示终点</string>
+</resources>

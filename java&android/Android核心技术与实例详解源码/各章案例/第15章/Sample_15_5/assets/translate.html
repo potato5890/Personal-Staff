@@ -1,0 +1,42 @@
+<html>
+	<head><!-- 文件头 -->
+		<meta http-equiv="Content-Type" content="text/html; charset=GBK" /><!-- 编码格式 -->
+	</head>
+	<script type="text/javascript" src="http://www.google.com/jsapi"/><!-- 引入翻译API-->
+	<script type="text/javascript">
+    	google.load("language", "1");
+    	function myTranslate(strTranslate,myDiv){<!-- 翻译方法 -->
+      		try{
+        		google.language.translate(strTranslate, 
+        			"", "zh-CN", 
+        			function(result){<!-- 处理结果的方法 -->
+          				if (!result.error){
+            				document.getElementById(myDiv).innerHTML=result.translation;
+          				}
+          				else{
+          					document.getElementById(myDiv).innerHTML=strInput;
+          				}
+        			}
+        		);
+      		} 
+      		catch(e){<!-- 异常处理 -->
+        		alert("myTranslate Exception: "+e);
+      		}
+    	}
+	</script>
+	<script language="javascript">
+		function translate(strTranslate){<!-- Android中调用的方法 -->
+		    myTranslate(strTranslate, "myDiv");
+		}
+	</script>	
+	<body>
+		<p align="center"><!-- 设置居中 -->
+			<input type="button" value="翻译" onClick="window.ytl.runJavaScript()"><!-- 按钮 -->
+		</p>
+		<div id="myDiv" 
+			style="text-align:center; font-size:20pt; 
+			padding-left:1px; padding-right:1px; 
+			padding-top:1px; padding-bottom:1px">
+		</div>
+	</body>
+</html>

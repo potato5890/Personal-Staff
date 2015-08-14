@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Sample_12_2!</string>
+    <string name="app_name">Sample_12_2</string>
+    <string name="getWall">获取当前墙纸</string>
+    <string name="clearWall">恢复默认墙纸</string>
+    <string name="setWall">设置为当前墙纸</string>
+</resources>

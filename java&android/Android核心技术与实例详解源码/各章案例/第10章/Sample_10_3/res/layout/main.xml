@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >													<!-- 声明一个线性布局 -->
+	<EditText  
+			android:id="@+id/etPost"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:editable="false"
+		    android:cursorVisible="false"
+		    />											<!-- 声明一个EditText控件 -->
+	<Button  
+		android:id="@+id/btnPost"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/btnPost"	
+	    />												<!-- 声明一个Button控件 -->
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		>
+		<EditText  
+				android:id="@+id/etGet"
+			    android:layout_width="fill_parent" 
+			    android:layout_height="wrap_content" 
+			    android:editable="false"
+			    android:lines="8"
+			    android:cursorVisible="false"
+			    />										<!-- 声明一个ScrollView控件 -->
+		</ScrollView>
+	<Button  
+		android:id="@+id/btnGet"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/btnGet"
+	    />												<!-- 声明一个Button控件  -->
+</LinearLayout>

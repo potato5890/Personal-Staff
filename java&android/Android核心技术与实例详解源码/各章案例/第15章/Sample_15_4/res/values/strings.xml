@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Sample_15_4!</string>
+    <string name="app_name">Sample_15_4</string>
+    <string name="etCity">输入要查询的城市</string>
+    <string name="btnGo">查询</string>
+</resources>

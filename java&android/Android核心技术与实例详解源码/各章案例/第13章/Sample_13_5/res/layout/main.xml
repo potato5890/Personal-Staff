@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><!-- XML的版本以及编码方式 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:gravity="center"
+	    android:text="@string/title"/>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="horizontal"
+	    android:gravity="center_horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+		<Button
+			android:id="@+id/start"
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/start"/>
+		<Button
+			android:id="@+id/stop"
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/stop"/>
+	    </LinearLayout>	    
+</LinearLayout>

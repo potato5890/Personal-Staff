@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 声明版本号和编码格式 -->
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"><!-- 垂直的线性布局 -->
+    <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"><!-- 水平的线性布局 -->
+	    <ImageView
+	    	android:layout_width="22px"
+	    	android:layout_height="fill_parent"
+	    	android:src="@drawable/logo"
+	    	style="@style/logoText"/><!-- 添加一个ImageView显示Logo -->
+		<TextView  
+			android:id="@+id/favouriteTitle"
+		    android:layout_width="fill_parent" 
+		    style="@style/logoText"
+		    android:layout_height="wrap_content" 
+		    android:text="@string/indexTitle"/><!-- 标题 -->
+	</LinearLayout>   
+    <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"><!-- 水平的线性布局 -->
+		<TextView  
+			android:id="@+id/searchResultTextView"
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:textColor="@color/word"
+			android:textSize="20sp"/><!-- 搜索结果 -->
+	</LinearLayout> 
+    <LinearLayout
+	    android:orientation="horizontal"
+	    android:gravity="center"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"><!-- 水平的线性布局 -->
+	    <ImageButton   
+	    	android:id="@+id/previousButton" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="35px"
+	    	android:src="@drawable/previous_button"/>	
+	    <ImageButton   
+	    	android:id="@+id/nextButton" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="35px"
+	    	android:src="@drawable/next_button"/>	
+	    <ImageButton   
+	    	android:id="@+id/backButton" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="35px"
+	    	android:src="@drawable/back_button"/>	
+	</LinearLayout>
+	<ListView 
+		android:id="@+id/searchResultListView"       
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:choiceMode="singleChoice" />		 	
+</LinearLayout>

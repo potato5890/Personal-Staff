@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Sample_10_3!</string>
+    <string name="app_name">Sample_10_3</string>
+    <string name="btnPost">点击通过POST获取HTTP连接</string>
+    <string name="btnGet">点击通过GET获取HTTP连接</string>
+</resources>

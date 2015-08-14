@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/sNumber"/>
+    <EditText
+    	android:id="@+id/number"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:text="@string/tempNumber"/>
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/sBody"/>
+    <EditText
+    	android:id="@+id/body"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:text="@string/tempBody"/>    
+    <Button
+    	android:id="@+id/send"
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:text="@string/send"/>	
+</LinearLayout>

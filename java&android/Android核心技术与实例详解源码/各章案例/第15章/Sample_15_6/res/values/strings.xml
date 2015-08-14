@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Sample_15_6!</string>
+    <string name="app_name">Sample_15_6</string>
+    <string name="tvLong">经度：</string>				<!-- 声明名为txtLong的字符串资源 -->
+    <string name="tvLat">纬度：</string>				<!-- 声明名为txtLat的字符串资源 -->
+    <string name="btn">查询街景</string>					<!-- 声明名为btnGo的字符串资源 -->
+</resources>

@@ -1,0 +1,17 @@
+<#LOGIN#>				Client->Server				客户端登录
+<#LOGINERROR#>			Server->Client				登录失败
+<#LOGINOK#>				Server->Client				登录成功
+<#REGISTER#>			Client->Server				注册动作
+<#REGISTEROK#>			Server->Client				注册成功
+<#ClientDown#>			Client->Server				客户端下线
+<#SEARCH#>				Client->Server				搜索美食信息
+<#SEARCHINFO#>			Server->Client				服务端向客户端发送搜索的结果
+<#FAVOURITE#>			Client->Server				搜索我的收藏
+<#FAVOURITEINFO#>		Server->Client				我的收藏搜索结果
+<#RECOMMEND#>			Client->Server				客户端发送的推荐
+<#RECOMMENDINFO#>		Server->Client				服务器回复推荐动作
+<#DELETEMSTXCOL#>		Client->Server				删除收藏
+<#INSERTMSTXCOL#>		Client->Server				收藏动作
+<#INSERTMSTXINFO#>		Client->Server				上传美食
+<#MSTXSORT#>			Client->Server				查询美食种类
+<#MSTXSORTINFO#>		Server->Client				服务器回复客户端的种类搜索
